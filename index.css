@@ -1,0 +1,216 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div h1{
+    color: #2563eb;
+}
+
+.links-ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.sign-up-btn{
+    background-color: blue;
+    color: white;
+    padding: 13px 20px;
+    font-style: 500;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    background-color: #2563eb;
+    color: white;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-right: 2rem;
+
+}
+
+.hero-section div a{
+    color:#2563eb;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+
+}
+
+.hero-section-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.hero-section .hero-section-texts{
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+
+
+}
+
+
+
+.why-choose-container{
+
+display: flex;
+gap: 30px;
+
+
+}
+
+.why-choose-us-section{
+    
+    background-color: rgb(240, 240, 240);
+    padding: 50px 25px 50px 25px;
+   
+    
+
+}
+
+.reason{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reason p{
+    color: rgb(85, 81, 81);
+}
+
+.section-heading{
+    font-size: 40px;
+    text-align: center;
+}
+
+.testimonial-section{
+    background-color: rgb(240, 240, 240);
+    padding: 50px 80px  ;
+    
+}
+
+.test-container{
+    display: flex;
+    gap: 30px;
+
+}
+
+.feedback{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(65, 58, 58) ;
+    
+    
+}
+.name{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* gap: 10px; */
+
+}
+
+.plan-heading{
+    
+    text-align: center;
+    font-size: 50px;
+}
+
+.plan-section{
+    background-color: rgb(238, 236, 236);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.planning-main-card{
+    display: flex;
+    gap: 20px;
+    justify-content:center ;
+    
+
+
+}
+
+.plan-card{
+ background-color: white;
+ border-radius: 10px;
+ padding: 20px 40px;
+
+
+ 
+}
+
+.pro-plan{
+    border: #2563eb solid 2px;
+    position: relative;
+}
+
+.plan-btn{
+    padding: 10px 20px;
+    background-color: #2563eb;
+    border-radius: 10px;
+    color: #fff;
+
+    
+}
+
+.pop-plan{
+    background-color: #2563eb;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.plan-ul{
+    list-style: url('tick-mark.svg');
+}
+
+footer{
+    background-color:#1f2937 ;
+    color: #ffffff;
+}
+
+.footer-top-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0;
+}
+
+.quick-ul{
+    list-style: none;
+    padding: 0;
+    color: #b3b2b2;
+}
+
+.footer-top-section p{
+    color: #b3b2b2;
+    width: 60%;
+}
+
+.footer-bottom{
+    padding: 20px;
+    text-align: center;
+}
